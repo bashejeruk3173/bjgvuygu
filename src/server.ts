@@ -8,8 +8,6 @@ config(); // dotenv
 const app = express();
 const PORT = process.env.PORT ?? 3001;
 
-//middlewares
-app.use(limiter);
 
 // router
 app.use("/", router);
