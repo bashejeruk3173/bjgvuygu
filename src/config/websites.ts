@@ -14,13 +14,18 @@ export const websites_collection: Websites = {
     BASE: "https://aniwatchtv.to",
     CLONES: {
       HiAnime: [
-        "https://hianime.to",
+        "https://hianimez.is",
+        "https://hianimez.to",
         "https://hianime.nz",
-        "https://hianime.sx",
+        "https://hianime.bz",
+        "https://hianime.pe",
       ],
     },
   },
   GogoAnime: {
     BASE: "https://ww24.gogoanimes.fi",
+  },
+  KickAssAnime: {
+    BASE: "https://kickass-anime.ro",
   },
 };
