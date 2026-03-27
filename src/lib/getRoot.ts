@@ -18,7 +18,6 @@ export const getRoot: RequestHandler = async (_req, res) => {
     const gogoanimeStatus = await isSiteReachable("https://gogoanime3.co");
 
     data.sites["aniwatch"] = aniwatchStatus || aniwatchtvStatus;
-    data.sites["gogoanime"] = gogoanimeStatus;
 
     res.status(200).json(data);
   } catch (error) {
