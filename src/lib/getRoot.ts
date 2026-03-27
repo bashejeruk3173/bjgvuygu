@@ -10,7 +10,7 @@ export const getRoot: RequestHandler = async (_req, res) => {
       sites: {},
     };
 
-    data.docs = "/";
+    data.docs = "..";
 
     const aniwatchStatus = await isSiteReachable("https://aniwatch.to");
     const aniwatchtvStatus = await isSiteReachable("https://aniwatchtv.to");
