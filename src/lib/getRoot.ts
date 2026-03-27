@@ -10,7 +10,7 @@ export const getRoot: RequestHandler = async (_req, res) => {
       sites: {},
     };
 
-    data.docs = "https://github.com/falcon71181/Anime-API/blob/main/README.md";
+    data.docs = "/";
 
     const aniwatchStatus = await isSiteReachable("https://aniwatch.to");
     const aniwatchtvStatus = await isSiteReachable("https://aniwatchtv.to");
